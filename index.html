@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdulmaleek Adams</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="profile container">
+      <i class="ri-moon-line changeTheme" id="themeButton"></i>
+
+      <div class="profileContainer grid">
+        <div class="profileData">
+          <div class="profileBorder">
+            <div class="profilePerfil">
+              <img
+                class="profileImg"
+                src="assets/avatar.jpg"
+                alt="Abdulmaleek Adams"
+              />
+            </div>
+          </div>
+          <h1 class="profileName" id="profileName"></h1>
+          <h2 class="profileProfession">Web Developer</h2>
+
+          <div class="profileSocials">
+            <a
+              class="profileSocialLink"
+              href="https://github.com/abdulmaleekadams"
+              title="Github Profile"
+              ><i class="ri-github-line"></i
+            ></a>
+            <a
+              class="profileSocialLink"
+              href="https://twitter.com/abdmaleekadams"
+              title="Twitter Profile"
+              ><i class="ri-twitter-x-line"></i
+            ></a>
+            <a
+              class="profileSocialLink"
+              href="https://www.linkedin.com/in/abdulmaleekadams/"
+              title="LinkedIn Profile"
+              ><i class="ri-linkedin-line"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="profileInfo grid"></div>
+
+        <div class="profileButtons">
+          <a
+            download=""
+            href="assets/Resume-Adams-Abdulmaleek.pdf"
+            class="button"
+            >Download CV <i class="ri-download-line"></i
+          ></a>
+
+          <div class="profileButtonSmall">
+            <a
+              title="Chat on Whatsapp"
+              href="https://api.whatsapp.com/send?phone=+2348158964385&text=Hello, more information"
+              class="button buttonSmall buttonGray"
+            >
+              <i class="ri-whatsapp-line"></i
+            ></a>
+            <a
+              title="Send a mail"
+              href="#"
+              class="button buttonSmall buttonGray"
+              ><i class="ri-messenger-line"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="filters container">
+        <div class="filtersContent">
+          <button
+            class="filtersButton filtersTabActive"
+            data-target="#projects"
+          >
+            Projects
+          </button>
+          <button class="filtersButton" data-target="#skills">Skills</button>
+        </div>
+
+        <div class="filtersSection">
+          <div
+            class="projectsContent grid filtersActive"
+            data-content
+            id="projects"
+          >
+            <article class="projectsCard">
+              <img src="assets/project1.png" class="projectsImg" alt="" />
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Web</span>
+                  <h3 class="projectsTitle">JBL Headphone Landing Page</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="projectsCard">
+              <img src="assets/project1.png" class="projectsImg" alt="" />
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Web</span>
+                  <h3 class="projectsTitle">JBL Headphone Landing Page</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="projectsCard">
+              <img src="assets/project1.png" class="projectsImg" alt="" />
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Web</span>
+                  <h3 class="projectsTitle">JBL Headphone Landing Page</h3>
+                  <a href="#" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="skillsContent grid" data-content id="skills">
+            <div class="skillsArea">
+              <h3 class="skillsTitle">Frontend Developer</h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">HTML</h3>
+                      <span class="skillsLevel">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">CSS</h3>
+                      <span class="skillsLevel">Advanced</span>
+                    </div>
+                  </div>
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">Javacript</h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">React</h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">Bootstrap</h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">Git</h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skillsArea">
+              <h3 class="skillsTitle">Backend Developer</h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">MySQL</h3>
+                      <span class="skillsLevel">Advance</span>
+                    </div>
+                  </div>
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">MongoDB</h3>
+                      <span class="skillsLevel">Advanced</span>
+                    </div>
+                  </div>
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">Firebase</h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">Node Js</h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"> </i>
+                    <div>
+                      <h3 class="skillsName">Express</h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <span class="footerCopy">
+        &#169; Abdulmaleek Adams. All rights reserved
+      </span>
+    </footer>
+  </body>
+</html>
