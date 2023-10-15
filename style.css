@@ -547,16 +547,6 @@ body.darkTheme {
   .skillsContent {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  body:has(.skillsContent.filtersActive) footer {
-    margin-top: auto;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
-  }
 }
 
 .animate {
